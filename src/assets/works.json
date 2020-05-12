@@ -1,0 +1,141 @@
+[
+    {
+        "category": "地圖",
+        "entry": [
+            {
+                "title": "台中市區屋齡地圖",
+                "url": "https://taichung-building-age-map.netlify.app/",
+                "id": "taichung-building-age-map",
+                "subtitle": "舊台中市八個行政區的建物落成年份地圖",
+                "description": "本專題運用台中市政府的開放資料，繪製了舊台中市八個行政區的屋齡地圖，使用者可縮放地圖，觀察不同地區的發展軌跡。",
+                "tools": [
+                    "Vue：前端框架",
+                    "Mapbox GL JS：圖磚及互動功能",
+                    "QGIS：製作圖磚",
+                    "R：GIS資料運算"
+                ],
+                "github": "https://github.com/imdataman/taichung-building-age-map"
+            },
+            {
+                "title": "台灣眾神：各家信仰與祂們的管區",
+                "url": "https://taiwan-gods.netlify.app/",
+                "id": "tw-gods-frontend",
+                "subtitle": "用GIS分析台灣各大神明的信仰熱區",
+                "description": "本專題運用廟宇地理位置的開放資料，找出台灣的十大佛、道及民間信仰，並分析運用空間分析演算法，找出各神明的信仰熱區。",
+                "tools": [
+                    "Vue：前端框架",
+                    "D3：繪製地圖",
+                    "R：GIS演算法"
+                ],
+                "github": "https://github.com/imdataman/tw-gods-frontend"
+            },
+            {
+                "title": "台北市屋齡地圖",
+                "url": "https://imdataman.github.io/taipei-house-age-map-v2/",
+                "id": "taipei-house-age-map",
+                "subtitle": "視覺化地圖呈現台北市屋齡",
+                "description": "本互動地圖展示台北市建築屋齡，並提供平均屋齡資訊，在使用者移動游標時，顯示半徑五百公尺內區域的平均屋齡。",
+                "tools": [
+                    "Turf.js：在用戶端運算平均屋齡",
+                    "Vue：前端框架",
+                    "Mapbox GL JS：地圖視覺及互動功能"
+                ],
+                "github": "https://github.com/imdataman/taipei-house-age-map-v2"
+            },
+            {
+                "title": "台北歷史對照地圖",
+                "url": "https://imdataman.github.io/taipei-map-1957/",
+                "id": "taipei-map-1957",
+                "subtitle": "運用衛星圖與歷史航照圖呈現台北街景變遷",
+                "description": "本互動地圖結合舊航照影像及Google Earth衛星影像，只要滑鼠移到或手機觸控任一地點，就能看到台北市六十年間街景變遷。",
+                "tools": [
+                    "OpenLayers：架設圖磚及圓形遮罩",
+                    "Google Earth Pro：擷取衛星影像",
+                    "ImageMagick：批次合併航照影像"
+                ],
+                "github": "https://github.com/imdataman/taipei-map-1957"
+            },
+            {
+                "title": "台灣2016總統大選地圖",
+                "url": "https://imdataman.github.io/tw-election-map/",
+                "id": "tw-election-map",
+                "subtitle": "用點圖呈現台灣各地區投票傾向",
+                "description": "本互動地圖用一個點代表十張選票，把1200萬張選票用視覺化的方式呈現，藍綠深淺代表這些點所屬的村里的投票結果偏藍偏綠。",
+                "tools": [
+                    "Mapbox GL JS：地圖視覺及互動功能",
+                    "QGIS：生成點圖及製作圖磚",
+                    "topojson：簡化行政區邊界圖資"
+                ],
+                "github": "https://github.com/imdataman/tw-election-map"
+            },
+            {
+                "title": "2018全台縣市長選舉地圖",
+                "url": "https://web.cw.com.tw/election2018/map",
+                "id": "tw-election-2018",
+                "subtitle": "細到村里的2018年縣市長選舉地圖",
+                "description": "本互動地圖展示細至村里的投票結果，並搭配2014年大選結果，呈現韓國瑜、盧秀燕等藍營候選人，如何席捲高雄、台中等城市。",
+                "tools": [
+                    "D3：地圖視覺及互動功能",
+                    "topojson：簡化行政區邊界圖資"
+                ],
+                "github": ""
+            },
+            {
+                "title": "台灣姓氏分佈地圖",
+                "url": "https://imdataman.github.io/tw-family-names/",
+                "id": "tw-family-names",
+                "subtitle": "運用政府公開資料呈現台灣姓氏分佈",
+                "description": "本專題分析全台總人數前三十多的姓氏的地理分佈，並視覺化各種姓氏的地理熱區，藉此一窺台灣四大族群的分佈。",
+                "tools": [
+                    "D3：地圖視覺及互動功能",
+                    "R：資料前處理"
+                ],
+                "github": "https://github.com/imdataman/tw-family-names"
+            }
+        ]
+    },
+    {
+        "category": "其他視覺化",
+        "entry": [
+            {
+                "title": "新冠肺炎各縣市每週確診病例",
+                "url": "https://coronavirus-taiwan-county.netlify.app/",
+                "id": "tw-county-square",
+                "subtitle": "視覺化呈現各縣市每週新增新冠肺炎病例",
+                "description": "本儀表板用視覺化的方式呈現各縣市新增病例數，並根據地理位置安排各縣市方塊的網頁位置，呈現各縣市疫情曲線走向。",
+                "tools": [
+                    "Vue：前端框架",
+                    "D3：繪製數據圖表"
+                ],
+                "github": "https://github.com/imdataman/tw-county-square"
+            },
+            {
+                "title": "互動圖表看第十屆立法委員",
+                "url": "https://imdataman.github.io/tw-legislator/",
+                "id": "tw-legislator",
+                "subtitle": "從政黨、陣營、年齡、任期、性別分析新一任立委組成",
+                "description": "2020年大選產生了113位立委，本互動專題讓使用者能夠從政黨、陣營、年齡、任期、性別五大面向深入了解新科立委。",
+                "tools": [
+                    "D3：force-layout",
+                    "scrollama：滾動式敘事效果",
+                    "ImageMagick：批次處理照片",
+                    "R：爬蟲及資料處理"
+                ],
+                "github": "https://github.com/imdataman/tw-legislator"
+            },
+            {
+                "title": "新冠肺炎儀表板",
+                "url": "https://web.cw.com.tw/coronavirus-outbreak-live-updates/index.html",
+                "id": "coronavirus-outbreak-live-updates",
+                "subtitle": "十大關鍵圖表掌握新冠肺炎產經衝擊",
+                "description": "運用約翰霍普金斯大學的新冠肺炎每日最新資料，繪製即時疫情資訊圖表，包括全球和台灣最新病例數字、哪些國家疫情加溫。",
+                "tools": [
+                    "D3：繪製數據圖表",
+                    "Google Apps Script：簡易api",
+                    "Node：後端資料處理"
+                ],
+                "github": ""
+            }
+        ]
+    }
+]

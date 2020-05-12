@@ -1,28 +1,43 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <About />
+    <Work />
+    <footer>
+      <small>&copy; Copyright 2020, Andy Lin Chia Hsien</small>
+    </footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Work from "./components/Work.vue";
+import About from "./components/About.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    About,
+    Work
   }
 };
 </script>
 
 <style lang="scss">
+body {
+  margin: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 80vw;
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+footer {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-bottom: 10px;
+  opacity: $subtitle-opacity;
 }
 </style>
