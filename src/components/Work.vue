@@ -147,5 +147,11 @@ hr {
   .work-image {
     margin-bottom: 10px;
   }
+  .work-description {
+    grid-area: description;
+    p {
+      margin: 10px;
+    }
+  }
 }
 </style>
