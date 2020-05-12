@@ -105,7 +105,7 @@ hr {
   h2 {
     margin-top: 0;
     margin-bottom: 0;
-    @include text-color-shadow();
+    @extend %text-color-shadow;
   }
   .subtitle {
     opacity: $subtitle-opacity;

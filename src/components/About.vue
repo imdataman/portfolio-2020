@@ -59,7 +59,7 @@ export default {
   margin-top: 1.5rem;
   margin-bottom: 0;
   text-align: center;
-  @include text-color-shadow();
+  @extend %text-color-shadow;
 }
 .subtitle {
   text-align: center;
@@ -84,7 +84,7 @@ li {
     color: black;
     &:hover {
       font-weight: 600;
-      @include text-color-shadow();
+      @extend %text-color-shadow;
     }
   }
 }
