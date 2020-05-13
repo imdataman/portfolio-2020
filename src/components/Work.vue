@@ -4,35 +4,41 @@
       <div
         class="type-container"
         v-for="works in allWorks"
-        :key="works.category"
+        :key="works.category[lang]"
       >
-        <p class="category">{{ works.category }}</p>
+        <p class="category">{{ works.category[lang] }}</p>
         <hr />
-        <div class="work-container" v-for="w in works.entry" :key="w.id">
+        <div class="work-container" v-for="w in works.entry" :key="w.shared.id">
           <div class="work-title">
-            <h2>{{ w.title }}</h2>
-            <p class="subtitle">{{ w.subtitle }}</p>
+            <h2>{{ w[lang].title }}</h2>
+            <p class="subtitle">{{ w[lang].subtitle }}</p>
           </div>
           <div class="work-image">
-            <a :href="w.url" target="_blank">
-              <img :src="`image/${w.id}.png`" :alt="`${w.title}的預覽圖`" />
+            <a :href="w.shared.url" target="_blank">
+              <img
+                :src="`image/${w.shared.id}.png`"
+                :alt="`${w[lang].title}`"
+              />
             </a>
           </div>
           <div class="work-description">
-            <p>{{ w.description }}</p>
+            <p>{{ w[lang].description }}</p>
           </div>
           <div class="work-tools">
             <ul>
-              <li v-for="(t, i) in w.tools" :key="`${w.id}-${i}-tool`">
+              <li
+                v-for="(t, i) in w[lang].tools"
+                :key="`${w.shared.id}-${i}-tool`"
+              >
                 {{ t }}
               </li>
             </ul>
           </div>
-          <div class="work-social" v-if="w.github">
-            <a :href="w.github" target="_blank">
+          <div class="work-social" v-if="w.shared.github">
+            <a :href="w.shared.github" target="_blank">
               <img
                 src="@/assets/image/github.png"
-                :alt="`${w.title}的GitHub`"
+                :alt="`${w[lang].title} GitHub`"
               />
             </a>
           </div>
@@ -47,6 +53,9 @@ import works from "@/assets/works.json";
 
 export default {
   name: "Work",
+  props: {
+    lang: String
+  },
   data() {
     return {
       allWorks: works
