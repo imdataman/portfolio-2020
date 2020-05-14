@@ -36,7 +36,7 @@
             },
             {
                 "en": {
-                    "title": "Taiwanese Gods: deities and their turfs",
+                    "title": "Taiwanese Gods: Deities and Their Turfs",
                     "subtitle": "Hotspots of popular deities in Taiwan",
                     "description": "I employed exploratory spatial data analysis techniques to locate hotspots for the ten most popular deities in Taiwan, such as Buddha and Mazu. Then I designed small multiples maps with D3.",
                     "tools": [
@@ -169,7 +169,7 @@
             },
             {
                 "en": {
-                    "title": "Where Do People with the Same family Name as You live?",
+                    "title": "Where Do People with the Same family Name as Yours live?",
                     "subtitle": "The distribution of family names in Taiwan",
                     "description": "I visualized the distribution of major family names in Taiwan. Users can choose their family name of interest and read the choropleth for the family name.",
                     "tools": [
@@ -227,7 +227,7 @@
             },
             {
                 "en": {
-                    "title": "Do You Know who are Elected as MPs this time?",
+                    "title": "Do You Know who are Elected as MPs this Time?",
                     "subtitle": "Know the newly elected MPs with a scroller",
                     "description": "I built a scroller to show how many newly elected MPs are female, are new faces in the parliament, or relatively young in the cohort of experienced legislators.",
                     "tools": [
