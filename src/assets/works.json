@@ -280,6 +280,31 @@
           "id": "coronavirus-outbreak-live-updates",
           "github": ""
         }
+      },
+      {
+        "en": {
+          "title": "Housing Prices in Every County",
+          "subtitle": "Sortable line chart displaying trends in housing markets",
+          "description": "These small multiples were drawn with D3js. Users can move their cursors on any of the charts to see details of each chart, and choose between three modes of chart arrangement.",
+          "tools": [
+            "D3: data visualization",
+            "R: data scraping, cleaning and wrangling"
+          ]
+        },
+        "zhTW": {
+          "title": "台灣各縣市房價走勢",
+          "subtitle": "用可排序的折線圖呈現各地區房價",
+          "description": "我用R語言下載、清理並分析實價登錄資料，再用D3讀取輸出的乾淨格式資料繪製互動圖表。使用者可以選擇三種方式排序折線圖，滑鼠移至任一折線圖都可取得所有折線圖的同時期房價資訊。",
+          "tools": [
+            "D3：繪製數據圖表",
+            "R：爬取、清理並分析原始資料"
+          ]
+        },
+        "shared": {
+          "url": "https://imdataman.github.io/taiwan-county-elder-sort/",
+          "id": "taiwan-housing-sort",
+          "github": ""
+        }
       }
     ]
   }
