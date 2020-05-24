@@ -14,7 +14,7 @@
             "Vue：前端框架",
             "Mapbox GL JS：圖磚及互動功能",
             "R：GIS資料運算",
-            "AWS及Postgresql：資料庫及serverless後端"
+            "AWS及PostgreSQL：資料庫及serverless後端"
           ]
         },
         "en": {
@@ -25,7 +25,7 @@
             "Vue: frontend framework for the app",
             "Mapbox GL JS: display raster tiles and provide basic interactivities",
             "R: geocomputation with sf",
-            "AWS and Postgresql: database and serverless backend"
+            "AWS and PostgreSQL: database and serverless backend"
           ]
         },
         "shared": {
