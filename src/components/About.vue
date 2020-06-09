@@ -50,7 +50,7 @@
         <div class="experience">
           <ul v-if="lang === 'zhTW'">
             <li><span>'19.10 - '20.02</span>海峽時報 資料視覺化設計師</li>
-            <li><span>'17.02 - '19.09</span>天下雜誌 資料視覺化設計師</li>
+            <li><span>'17.02 - '19.09</span>天下雜誌 資料記者</li>
             <li><span>'16.08 - '17.01</span>端傳媒 資料產品經理</li>
             <li><span>'15.06 - '16.07</span>關鍵評論網 資料新聞編輯</li>
             <li><span>'13.08 - '15.05</span>經濟日報 國際財經編譯</li>
@@ -60,15 +60,15 @@
               <span>'19.10 - '20.02</span>The Straits Times, Dataviz Designer
             </li>
             <li>
-              <span>'17.02 - '19.09</span>CommonWealth Magazine, Dataviz
-              Designer
+              <span>'17.02 - '19.09</span>CommonWealth Magazine, Data Journalist
             </li>
             <li>
               <span>'16.08 - '17.01</span>Initium Media, Data Product Manager
             </li>
             <li><span>'15.06 - '16.07</span>The News Lens, Data Editor</li>
             <li>
-              <span>'13.08 - '15.05</span>Economic Daily News, Economic Editor
+              <span>'13.08 - '15.05</span>Economic Daily News, Financial News
+              Editor
             </li>
           </ul>
         </div>
