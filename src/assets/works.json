@@ -9,23 +9,21 @@
         "zhTW": {
           "title": "台中市區屋齡地圖",
           "subtitle": "舊台中市八個行政區的建物落成年份地圖",
-          "description": "本專題運用台中市政府的開放資料，繪製了舊台中市八個行政區的屋齡地圖，使用者可縮放地圖，並點擊建築查看相關資訊。",
+          "description": "本專題運用台中市政府的開放資料，繪製了舊台中市八個行政區的屋齡地圖，使用者可縮放地圖查看建築資訊。",
           "tools": [
             "Vue：前端框架",
             "Mapbox GL JS：圖磚及互動功能",
-            "R：GIS資料運算",
-            "AWS及PostgreSQL：資料庫及serverless後端"
+            "R：GIS資料運算"
           ]
         },
         "en": {
           "title": "The Age of Every Building in Downtown Taichung",
           "subtitle": "History of Taichung in an interactive map",
-          "description": "I scraped the housing information from government sites and made a raster map. Users can click on a building for further detail.",
+          "description": "I scraped the housing information from government sites and made a raster map.",
           "tools": [
             "Vue: frontend framework for the app",
             "Mapbox GL JS: display raster tiles and provide basic interactivities",
-            "R: geocomputation with sf",
-            "AWS and PostgreSQL: database and serverless backend"
+            "R: geocomputation with sf"
           ]
         },
         "shared": {
