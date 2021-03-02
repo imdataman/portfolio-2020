@@ -200,6 +200,33 @@
     "entry": [
       {
         "en": {
+          "title": "175 Years of The Straits Times’ Headlines",
+          "subtitle": "Use text analysis to uncover stories in Singaporean history",
+          "description": "I used quantitative text analysis methods to analyze 47,000 headlines and uncover interesting topics and trends such as epidemics, foreign affairs, and vices & crimes. I also designed the overall visual format and interactive flow.",
+          "tools": [
+            "R: data cleaning and quantitative text analysis",
+            "Vue: framework for the app",
+            "D3: framework for the interactives"
+          ]
+        },
+        "zhTW": {
+          "title": "文字探勘海峽時報175年歷史",
+          "subtitle": "視覺化呈現海峽時報175年頭條新聞內容",
+          "description": "運用文字探勘技術，分析海峽時報175年所有頭條的文字內容，並從中分析有趣的主題跟變化趨勢。使用D3視覺化分析結果。",
+          "tools": [
+            "R：文字探勘",
+            "Vue：前端框架",
+            "D3：繪製數據圖表"
+          ]
+        },
+        "shared": {
+          "url": "https://www.straitstimes.com/multimedia/graphics/2020/10/175-years-headlines",
+          "id": "st-175-keywords",
+          "github": ""
+        }
+      },
+      {
+        "en": {
           "title": "New Cases of Covid-19 in Every County in Taiwan",
           "subtitle": "Display the Covid-19 data in a visual-appealing way",
           "description": "I built this dashboard with the aim of preserving the relative geographical position of every county in Taiwan. The mobile layout is different from the desktop one for better user experience.",
