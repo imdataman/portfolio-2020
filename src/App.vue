@@ -18,7 +18,7 @@
     <About :lang="lang" />
     <Work :lang="lang" />
     <footer>
-      <small>&copy; Copyright 2020, Andy Lin Chia Hsien</small>
+      <small>&copy; Copyright 2021, Chia-Hsien (Andy) Lin </small>
     </footer>
   </div>
 </template>

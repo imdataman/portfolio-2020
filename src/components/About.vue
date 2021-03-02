@@ -7,7 +7,7 @@
       Maps &#128506; Coding &#128187; Dataviz &#128200;
     </h2>
     <h3 class="subtitle" v-if="lang === 'zhTW'">資料視覺化設計師 林佳賢</h3>
-    <h3 class="subtitle" v-else>Andy Lin Chia Hsien</h3>
+    <h3 class="subtitle" v-else>Chia-Hsien (Andy) Lin</h3>
     <div class="main-grid">
       <div class="left-column">
         <p v-if="lang === 'zhTW'">
