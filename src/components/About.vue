@@ -49,6 +49,7 @@
       <div class="right-column">
         <div class="experience">
           <ul v-if="lang === 'zhTW'">
+            <li><span>'21.08 - </span>金融時報 資料記者</li>
             <li><span>'19.10 - '20.02</span>海峽時報 資料視覺化設計師</li>
             <li><span>'17.02 - '19.09</span>天下雜誌 資料記者</li>
             <li><span>'16.08 - '17.01</span>端傳媒 資料產品經理</li>
@@ -56,6 +57,9 @@
             <li><span>'13.08 - '15.05</span>經濟日報 國際財經編譯</li>
           </ul>
           <ul v-else>
+            <li>
+              <span>'21.08 - </span>Financial Times, Data Reporter
+            </li>
             <li>
               <span>'19.10 - '20.02</span>The Straits Times, Dataviz Designer
             </li>
@@ -67,7 +71,7 @@
             </li>
             <li><span>'15.06 - '16.07</span>The News Lens, Data Editor</li>
             <li>
-              <span>'13.08 - '15.05</span>Economic Daily News, Financial News
+              <span>'13.08 - '15.05</span>Economic Daily News, News
               Editor
             </li>
           </ul>
